@@ -38,6 +38,18 @@ anything that will help understand or diagnose similar problems in the
 future (root causes, non-obvious configuration, gotchas, where to look). Do
 this incrementally as you learn things, not only at the end of a task.
 
+"As you go" reliably loses to the pull of active operational work over a
+long session — debugging, deploying, waiting on tool results. Don't rely on
+remembering; make it concrete:
+- The moment you resolve something non-obvious worth keeping, writing it up
+  is part of finishing that step, not a follow-up. Add a TodoWrite item for
+  the write-up right next to the fix/investigation itself, and don't mark
+  the parent task done until that write-up todo is also done.
+- If you delegate investigation or deployment work to a subagent, ask it to
+  draft the knowledge-map addition (ready-to-paste text, not just "here are
+  the facts") in its final report — it has the context right then; you
+  likely won't reconstruct it as well later from a summary alone.
+
 Keep secrets/credentials out of these files — reference them indirectly
 (e.g. "see vault/secret X") instead of inlining them.
 

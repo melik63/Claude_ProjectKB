@@ -18,6 +18,7 @@ read only when relevant.
 If a task touches CPAAS, IBA, or S2S (or another solution added later
 under `<KB_ROOT>/`), check that solution's map in `<KB_ROOT>/<SOLUTION>/`
 before analysis/config changes/debugging, and update it with newly learned
-facts as you go. Full rules: `<KB_ROOT>/RULES.md` (read it the first time
+facts immediately (a TodoWrite item for the write-up, not a mental note) —
+not at session end. Full rules: `<KB_ROOT>/RULES.md` (read it the first time
 this applies in a session).
 ```
